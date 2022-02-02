@@ -1,0 +1,35 @@
+.. flows_sdk documentation master file, created by
+   sphinx-quickstart on Thu Oct 14 13:12:50 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Hyperscience Flows SDK
+=====================================
+The ``flows_sdk`` is a Python library for programmatically building flows: sequences of business steps managed and executed by the Hyperscience Platform. These solutions are written in code, but are then manageable on the Hyperscience Platform.
+
+.. image:: /media/images/tutorial/idp-starter-flow-studio.jpg
+
+Our documentation consists of the following sections:
+
+* :ref:`pages/intro:Introduction to Flows SDK`: Explanations of system architecture, `flows_sdk` library structure, and basic concepts.
+* :ref:`pages/tutorial:Tutorial`: A quickstart guide to deploying your first flow to the Hyperscience Platform.
+* :ref:`pages/examples:Examples`: A library of fully executable flow examples. These can be used as templates for developing your own flows.
+* :ref:`pages/custom_supervision:Custom Supervision`: A guide to configuring Custom Supervision templates.
+* :ref:`pages/faq:FAQ`: Answers to frequently asked quesitons.
+* :ref:`pages/source-docs:Source Documentation` & :ref:`pages/idp_32:IDP Library`: Definitions for all classes and functions in the `flows_sdk` library.
+
+We encourage you to complete the :ref:`pages/tutorial:Tutorial` as the best way to get started.
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   :hidden:
+
+   pages/intro
+   pages/tutorial
+   pages/examples
+   pages/custom_supervision
+   pages/faq
+   pages/source-docs
+   pages/idp_32
